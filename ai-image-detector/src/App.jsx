@@ -20,7 +20,7 @@ export default function App() {
     formData.append("image", file);
 
     try {
-      const res = await fetch("https://veripixel-1.onrender.com/predict", {
+      const res = await fetch("https://veripixel-2.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
